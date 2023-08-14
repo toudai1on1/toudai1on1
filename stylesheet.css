@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1100px;
+    padding: 15, 15px;
+    margin: 0 auto;
+    font-family: 'Hiragino Mincho ProN'、'ヒラギノ明朝 ProN';
+  }
+  
+  
+  .top-wrapper {
+    padding: 290px 0 100px 0;
+    background-image: url(https://www.ghibli.jp/gallery/kazetachinu041.jpg);
+    background-size: cover;
+    color: white;
+    
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.9;
+    font-size: 49px;
+    letter-spacing: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: brown;
+    text-align: center;
+  }
+  .top-wrapper h5{
+    opacity: 0.9;
+    font-size: 49px;
+    letter-spacing: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: brown;
+    margin:0 250px 0 250px;
+    text-align: center;
+  }
+  .top-wrapper span{
+    font-size: 68px;
+    color: #eee ;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.9;
+  }
+  
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(185, 11, 11, 0.8);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 111px;
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
+  
+  .header-left {
+    float: left;
+    margin-left: -145px;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -145px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .menu-icon{
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }
+  
+  .lesson-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  
+  .heading {
+    padding-top: 90px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+    font-size: 56px;
+    border-bottom :3px solid #b22222;
+    width: 750px;
+    margin: 0 auto;
+    color: black;
+  }
+  .heading h4{
+    font-weight: normal;
+    font-size: 34px;
+    border-bottom :3px solid #b22222;
+    width: 750px;
+    margin: 0 auto;
+    color: black;
+  }
+
+  .heading p{
+    font-size: 27px;
+    text-align: center;
+    opacity: 0.85;
+  }
+  
+  
+  
+  
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #b3aeb5;
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+  }
+  .heading p{
+    text-align: left;
+  }
+  
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  .btn-message {
+    font-size: 40px;
+  }
+  
+  
+  footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
